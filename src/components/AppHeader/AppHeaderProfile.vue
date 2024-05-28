@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
     import { useCommonStore } from '~/store/common';
 
     const commonStore = useCommonStore();
@@ -21,7 +21,7 @@
         align-items: center;
         
         &__circle {
-            border: 2px solid #ae86f9; 
+            border: 2px solid #D94C40; 
             background-color: #D0D0D0;
             justify-content: center;
             min-width: 36px; 
@@ -33,8 +33,8 @@
 
             &__img {
                 border-radius: 50%; 
-                width: 36px;
-                height: 36px;
+                width: 48px;
+                height: 48px;
             }
         }
 

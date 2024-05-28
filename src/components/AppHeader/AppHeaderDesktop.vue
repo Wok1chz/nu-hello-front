@@ -1,13 +1,16 @@
-<script setup>
+<script lang="ts" setup>
 
 </script>
 <template>
     <div class="header">
         <div class="container">
             <div class="header-content">
-                <img 
-                src="@/assets/svg/logo.svg"
-                />
+                
+                <div class="main_name">
+                    <img 
+                    src="@/assets/svg/logo.svg"
+                    />
+                    Ну... Хэллоу</div>
                 <AppHeaderProfile
                 />
             </div>
@@ -15,7 +18,7 @@
     </div>
 </template>
 <style scoped lang="scss">
-@import '@/assets/css/common';
+@import '@/assets/css/variables.scss';
     .header-content {
         min-height: 48px;
         display: flex;
@@ -27,5 +30,11 @@
     img {
         width: 48px;
         height: 48px;
+    }
+    .main_name {
+        color: $default-red;
+        font-size: 28px;
+        font-weight: 700;
+        font-style: oblique
     }
 </style>

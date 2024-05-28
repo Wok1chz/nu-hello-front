@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "@vue/runtime-core": "^3.4.27",
     "@vueuse/core": "^10.9.0",
     "@vueuse/nuxt": "^10.9.0",
+    "commonjs": "^0.0.1",
+    "maska": "^2.1.11",
     "nuxt": "^3.11.1",
     "pinia": "^2.1.7",
+    "sass-loader": "^14.2.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
